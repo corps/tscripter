@@ -1,0 +1,37 @@
+{
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2,
+        "newLineCharacter": "\r\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    },
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true
+    },
+    "filesGlob": [
+        "./typings/all.d.ts",
+        "./test/*.test.ts",
+        "./index.ts",
+        "./lib/**/*.ts"
+    ],
+    "files": [
+        "./typings/all.d.ts",
+        "./test/analyzer.test.ts",
+        "./test/typescript-conformance.test.ts",
+        "./index.ts",
+        "./lib/analyzer.d.ts",
+        "./lib/analyzer.ts",
+        "./lib/statements.d.ts",
+        "./lib/statements.ts"
+    ]
+}
