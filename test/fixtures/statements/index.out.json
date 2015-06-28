@@ -1315,7 +1315,7 @@
         }
       },
       {
-        "constructorName": "While",
+        "constructorName": "Loop",
         "data": {
           "conditional": {
             "constructorName": "AtomicValue",
@@ -1391,7 +1391,7 @@
         }
       },
       {
-        "constructorName": "While",
+        "constructorName": "Loop",
         "data": {
           "conditional": {
             "constructorName": "AtomicValue",

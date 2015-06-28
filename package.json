@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/typescript/bin/tsc && ./node_modules/mocha/bin/mocha",
-    "test-fast": "./node_modules/typescript/bin/tsc && ./node_modules/mocha/bin/mocha --grep \"@slow\"",
+    "test-fast": "./node_modules/typescript/bin/tsc && ./node_modules/mocha/bin/mocha -i --grep \"@slow\"",
     "test-slow": "./node_modules/typescript/bin/tsc && ./node_modules/mocha/bin/mocha --grep \"@slow\"",
     "download-typescript-tests": "./test/download-typescript-tests.sh",
     "format-tests": "find test -name \"*.test.ts\" | grep \"\\.ts\" | xargs ./node_modules/typescript-formatter/bin/tsfmt -r",
