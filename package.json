@@ -1,6 +1,6 @@
 {
   "name": "tscripter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript code generation tools.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "format-lib": "find lib | grep \"\\.ts\" | xargs ./node_modules/typescript-formatter/bin/tsfmt -r",
     "format-index": "./node_modules/typescript-formatter/bin/tsfmt -r index.ts",
     "format": "npm run format-tests && npm run format-lib && npm run format-index",
-    "prepublish": "./prepublish.sh"
+    "publish-clean": "./publish.sh"
   },
   "repository": {
     "type": "git",

@@ -10,3 +10,5 @@ rm -rf ./typings
 rm index.ts
 rm lib/analyzer.ts
 rm lib/statements.ts
+
+npm publish ./
