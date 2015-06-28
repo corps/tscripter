@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+*.out.ts
+index.js
+lib/**/*.js
+test/**/*.js
+.idea/workspace.xml
+.idea/typescript-compiler.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries
+test/TypeScript

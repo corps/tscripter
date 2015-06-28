@@ -1,0 +1,1337 @@
+{
+  "constructorName": "Source",
+  "data": {
+    "elements": [
+      {
+        "constructorName": "AtomicValue",
+        "data": {
+          "token": "5"
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Parenthetical",
+        "data": {
+          "expression": {
+            "constructorName": "BinaryOperation",
+            "data": {
+              "operator": "-",
+              "left": {
+                "constructorName": "AtomicValue",
+                "data": {
+                  "token": "58"
+                }
+              },
+              "right": {
+                "constructorName": "AtomicValue",
+                "data": {
+                  "token": "32"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "TernaryOperation",
+        "data": {
+          "operators": [
+            "?",
+            ":"
+          ],
+          "expressions": [
+            {
+              "constructorName": "BinaryOperation",
+              "data": {
+                "operator": "&&",
+                "left": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "false"
+                  }
+                },
+                "right": {
+                  "constructorName": "Parenthetical",
+                  "data": {
+                    "expression": {
+                      "constructorName": "BinaryOperation",
+                      "data": {
+                        "operator": "||",
+                        "left": {
+                          "constructorName": "AtomicValue",
+                          "data": {
+                            "token": "true"
+                          }
+                        },
+                        "right": {
+                          "constructorName": "UnaryOperation",
+                          "data": {
+                            "operator": "!",
+                            "expression": {
+                              "constructorName": "AtomicValue",
+                              "data": {
+                                "token": "true"
+                              }
+                            },
+                            "postfix": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "3"
+              }
+            },
+            {
+              "constructorName": "BinaryOperation",
+              "data": {
+                "operator": "-",
+                "left": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "2"
+                  }
+                },
+                "right": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "5"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "UnaryOperation",
+        "data": {
+          "operator": "--",
+          "expression": {
+            "constructorName": "PropertyAccess",
+            "data": {
+              "expression": {
+                "constructorName": "PropertyAccess",
+                "data": {
+                  "expression": {
+                    "constructorName": "PropertyAccess",
+                    "data": {
+                      "expression": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "window"
+                        }
+                      },
+                      "property": "document"
+                    }
+                  },
+                  "property": "childNodes"
+                }
+              },
+              "property": "length"
+            }
+          },
+          "postfix": true
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "TemplatePattern",
+        "data": {
+          "parts": [
+            {
+              "constructorName": "TemplateLiteralPiece",
+              "data": {
+                "value": "this "
+              }
+            },
+            {
+              "constructorName": "Identifier",
+              "data": {
+                "token": "window"
+              }
+            },
+            {
+              "constructorName": "TemplateLiteralPiece",
+              "data": {
+                "value": ""
+              }
+            },
+            {
+              "constructorName": "Identifier",
+              "data": {
+                "token": "window"
+              }
+            },
+            {
+              "constructorName": "TemplateLiteralPiece",
+              "data": {
+                "value": " is a pair of `\\n\"windows\"\\n`"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "TemplatePattern",
+        "data": {
+          "parts": [
+            {
+              "constructorName": "TemplateLiteralPiece",
+              "data": {
+                "value": ""
+              }
+            },
+            {
+              "constructorName": "Identifier",
+              "data": {
+                "token": "window"
+              }
+            },
+            {
+              "constructorName": "TemplateLiteralPiece",
+              "data": {
+                "value": " will come first this time"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Call",
+        "data": {
+          "callable": {
+            "constructorName": "PropertyAccess",
+            "data": {
+              "expression": {
+                "constructorName": "Identifier",
+                "data": {
+                  "token": "window"
+                }
+              },
+              "property": "scrollTo"
+            }
+          },
+          "args": [
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "35"
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "67"
+              }
+            }
+          ],
+          "typeArguments": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Call",
+        "data": {
+          "callable": {
+            "constructorName": "PropertyAccess",
+            "data": {
+              "expression": {
+                "constructorName": "ArrayLiteral",
+                "data": {
+                  "elements": []
+                }
+              },
+              "property": "concat"
+            }
+          },
+          "args": [
+            {
+              "constructorName": "ArrayLiteral",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "AtomicValue",
+                    "data": {
+                      "token": "1"
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": " "
+                    }
+                  },
+                  {
+                    "constructorName": "AtomicValue",
+                    "data": {
+                      "token": "2"
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": " "
+                    }
+                  },
+                  {
+                    "constructorName": "AtomicValue",
+                    "data": {
+                      "token": "3"
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": " "
+                    }
+                  },
+                  {
+                    "constructorName": "AtomicValue",
+                    "data": {
+                      "token": "4"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "typeArguments": [
+            {
+              "constructorName": "ArrayType",
+              "data": {
+                "elementType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "number"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "RegexLiteral",
+        "data": {
+          "body": "['\"`\\/]",
+          "flags": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "RegexLiteral",
+        "data": {
+          "body": "['\"`\\/]",
+          "flags": [
+            "g",
+            "i"
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "ArrayLiteral",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "ObjectLiteral",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "ComputedDeclarationName",
+                        "data": {
+                          "computation": {
+                            "constructorName": "BinaryOperation",
+                            "data": {
+                              "operator": "+",
+                              "left": {
+                                "constructorName": "AtomicValue",
+                                "data": {
+                                  "token": "\"a\""
+                                }
+                              },
+                              "right": {
+                                "constructorName": "AtomicValue",
+                                "data": {
+                                  "token": "\"c\""
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "undefined"
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "44"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "55"
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "\"happ\""
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "null"
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "5"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "\"a\""
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "14"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "b"
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "ObjectLiteral",
+                        "data": {
+                          "elements": [
+                            {
+                              "constructorName": "Spacing",
+                              "data": {
+                                "token": "\n    "
+                              }
+                            },
+                            {
+                              "constructorName": "ObjectLiteralProperty",
+                              "data": {
+                                "name": {
+                                  "constructorName": "AtomicValue",
+                                  "data": {
+                                    "token": "\"c\""
+                                  }
+                                },
+                                "initializer": {
+                                  "constructorName": "Identifier",
+                                  "data": {
+                                    "token": "undefined"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "constructorName": "Spacing",
+                              "data": {
+                                "token": "\n  "
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "c"
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "null"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "3"
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "4"
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "ObjectLiteral",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  },
+                  {
+                    "constructorName": "ObjectLiteralProperty",
+                    "data": {
+                      "name": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "\"b\""
+                        }
+                      },
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "2"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "m"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "Void",
+                  "data": {
+                    "keyword": "void",
+                    "expression": {
+                      "constructorName": "AtomicValue",
+                      "data": {
+                        "token": "0"
+                      }
+                    }
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "ArrayLiteral",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "1"
+              }
+            },
+            {
+              "constructorName": "EmptyExpression",
+              "data": {
+                "token": ""
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "2"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "TaggedTemplate",
+        "data": {
+          "tagF": {
+            "constructorName": "Identifier",
+            "data": {
+              "token": "f"
+            }
+          },
+          "template": {
+            "constructorName": "TemplatePattern",
+            "data": {
+              "parts": [
+                {
+                  "constructorName": "TemplateLiteralPiece",
+                  "data": {
+                    "value": "this is tagged, yo"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "BinaryOperation",
+        "data": {
+          "operator": "=",
+          "left": {
+            "constructorName": "ElementAccess",
+            "data": {
+              "accessed": {
+                "constructorName": "Identifier",
+                "data": {
+                  "token": "window"
+                }
+              },
+              "elementIndex": {
+                "constructorName": "AtomicValue",
+                "data": {
+                  "token": "\"addEventListener\""
+                }
+              }
+            }
+          },
+          "right": {
+            "constructorName": "AtomicValue",
+            "data": {
+              "token": "null"
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "BinaryOperation",
+        "data": {
+          "operator": "instanceof",
+          "left": {
+            "constructorName": "New",
+            "data": {
+              "constructorCall": {
+                "constructorName": "Call",
+                "data": {
+                  "callable": {
+                    "constructorName": "Identifier",
+                    "data": {
+                      "token": "String"
+                    }
+                  },
+                  "args": [
+                    {
+                      "constructorName": "AtomicValue",
+                      "data": {
+                        "token": "\"this\""
+                      }
+                    }
+                  ],
+                  "typeArguments": []
+                }
+              }
+            }
+          },
+          "right": {
+            "constructorName": "Identifier",
+            "data": {
+              "token": "Array"
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Delete",
+        "data": {
+          "operator": "delete ",
+          "expression": {
+            "constructorName": "ElementAccess",
+            "data": {
+              "accessed": {
+                "constructorName": "Identifier",
+                "data": {
+                  "token": "window"
+                }
+              },
+              "elementIndex": {
+                "constructorName": "AtomicValue",
+                "data": {
+                  "token": "\"someKey\""
+                }
+              }
+            }
+          },
+          "postfix": false
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "TypeOf",
+        "data": {
+          "operator": "typeof ",
+          "expression": {
+            "constructorName": "ArrayLiteral",
+            "data": {
+              "elements": []
+            }
+          },
+          "postfix": false
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Lambda",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "AtomicValue",
+              "data": {
+                "token": "5"
+              }
+            }
+          ],
+          "callableSignature": {
+            "constructorName": "CallableSignature",
+            "data": {
+              "name": null,
+              "args": [],
+              "returnType": null,
+              "typeParameters": [],
+              "isOptional": false
+            }
+          },
+          "isSingleExpression": true,
+          "withoutParanthesis": false
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Lambda",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            }
+          ],
+          "callableSignature": {
+            "constructorName": "CallableSignature",
+            "data": {
+              "name": null,
+              "args": [
+                {
+                  "constructorName": "Property",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "a"
+                      }
+                    },
+                    "type": null,
+                    "initializer": null,
+                    "modifiers": [],
+                    "decorators": [],
+                    "optional": false,
+                    "dotDotDot": false
+                  }
+                },
+                {
+                  "constructorName": "Property",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "b"
+                      }
+                    },
+                    "type": null,
+                    "initializer": null,
+                    "modifiers": [],
+                    "decorators": [],
+                    "optional": false,
+                    "dotDotDot": false
+                  }
+                }
+              ],
+              "returnType": null,
+              "typeParameters": [],
+              "isOptional": false
+            }
+          },
+          "isSingleExpression": false,
+          "withoutParanthesis": false
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Parenthetical",
+        "data": {
+          "expression": {
+            "constructorName": "Function",
+            "data": {
+              "elements": [
+                {
+                  "constructorName": "Spacing",
+                  "data": {
+                    "token": " "
+                  }
+                }
+              ],
+              "callableSignature": {
+                "constructorName": "CallableSignature",
+                "data": {
+                  "name": null,
+                  "args": [
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "a"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    },
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "b"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    },
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "c"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    }
+                  ],
+                  "returnType": null,
+                  "typeParameters": [],
+                  "isOptional": false
+                }
+              },
+              "modifiers": [],
+              "isMethod": false,
+              "declaredOnly": false,
+              "decorators": []
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Parenthetical",
+        "data": {
+          "expression": {
+            "constructorName": "Function",
+            "data": {
+              "elements": [
+                {
+                  "constructorName": "Spacing",
+                  "data": {
+                    "token": " "
+                  }
+                }
+              ],
+              "callableSignature": {
+                "constructorName": "CallableSignature",
+                "data": {
+                  "name": {
+                    "constructorName": "Identifier",
+                    "data": {
+                      "token": "withName"
+                    }
+                  },
+                  "args": [
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "d"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    },
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "f"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    },
+                    {
+                      "constructorName": "Property",
+                      "data": {
+                        "name": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "g"
+                          }
+                        },
+                        "type": null,
+                        "initializer": null,
+                        "modifiers": [],
+                        "decorators": [],
+                        "optional": false,
+                        "dotDotDot": false
+                      }
+                    }
+                  ],
+                  "returnType": null,
+                  "typeParameters": [],
+                  "isOptional": false
+                }
+              },
+              "modifiers": [],
+              "isMethod": false,
+              "declaredOnly": false,
+              "decorators": []
+            }
+          }
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Call",
+        "data": {
+          "callable": {
+            "constructorName": "ElementAccess",
+            "data": {
+              "accessed": {
+                "constructorName": "Parenthetical",
+                "data": {
+                  "expression": {
+                    "constructorName": "TypeAssertion",
+                    "data": {
+                      "expression": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "window"
+                        }
+                      },
+                      "type": {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "any"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "elementIndex": {
+                "constructorName": "AtomicValue",
+                "data": {
+                  "token": "\"addEventListener\""
+                }
+              }
+            }
+          },
+          "args": [
+            {
+              "constructorName": "Spread",
+              "data": {
+                "operator": "...",
+                "expression": {
+                  "constructorName": "ArrayLiteral",
+                  "data": {
+                    "elements": [
+                      {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "1"
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "2"
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "3"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "postfix": false
+              }
+            }
+          ],
+          "typeArguments": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Identifier",
+        "data": {
+          "token": "undefined"
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "AtomicValue",
+        "data": {
+          "token": "null"
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      }
+    ],
+    "fileName": "test/fixtures/expressions/index.ts"
+  }
+}

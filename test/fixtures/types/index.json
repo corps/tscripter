@@ -1,0 +1,2732 @@
+{
+  "constructorName": "Source",
+  "data": {
+    "elements": [
+      {
+        "constructorName": "RequireImport",
+        "data": {
+          "importedAs": {
+            "constructorName": "Identifier",
+            "data": {
+              "token": "bag"
+            }
+          },
+          "importPath": {
+            "constructorName": "AtomicValue",
+            "data": {
+              "token": "\"bag-of-classes\""
+            }
+          },
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "TypeAlias",
+        "data": {
+          "name": "BagClass",
+          "type": {
+            "constructorName": "QualifiedTypeName",
+            "data": {
+              "name": {
+                "constructorName": "QualifiedName",
+                "data": {
+                  "name": "MyClass",
+                  "qualification": {
+                    "constructorName": "QualifiedName",
+                    "data": {
+                      "name": "bag",
+                      "qualification": null
+                    }
+                  }
+                }
+              },
+              "typeParameters": []
+            }
+          },
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Class",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "someStatic"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "2"
+                  }
+                },
+                "modifiers": [
+                  "static"
+                ],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "otherStatic"
+                  }
+                },
+                "type": null,
+                "initializer": null,
+                "modifiers": [
+                  "static"
+                ],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "accessorStatic"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "5"
+                  }
+                },
+                "modifiers": [
+                  "public",
+                  "static"
+                ],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "andThis"
+                  }
+                },
+                "type": {
+                  "constructorName": "QualifiedTypeName",
+                  "data": {
+                    "name": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "MyClass",
+                        "qualification": {
+                          "constructorName": "QualifiedName",
+                          "data": {
+                            "name": "bag",
+                            "qualification": null
+                          }
+                        }
+                      }
+                    },
+                    "typeParameters": []
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "\"yuh\""
+                  }
+                },
+                "modifiers": [
+                  "private",
+                  "static"
+                ],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "PlainClass",
+          "modifiers": [
+            "export"
+          ],
+          "parentClass": null,
+          "typeParameters": [],
+          "extended": [],
+          "decorators": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Module",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Module",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n    "
+                    }
+                  },
+                  {
+                    "constructorName": "Interface",
+                    "data": {
+                      "elements": [
+                        {
+                          "constructorName": "Spacing",
+                          "data": {
+                            "token": " "
+                          }
+                        }
+                      ],
+                      "name": "SomeInterface",
+                      "typeParameters": [
+                        {
+                          "constructorName": "TypeParameter",
+                          "data": {
+                            "name": "T",
+                            "typeConstraint": null
+                          }
+                        },
+                        {
+                          "constructorName": "TypeParameter",
+                          "data": {
+                            "name": "G",
+                            "typeConstraint": null
+                          }
+                        }
+                      ],
+                      "extendedInterfaces": [],
+                      "modifiers": [
+                        "export"
+                      ]
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  }
+                ],
+                "name": {
+                  "constructorName": "QualifiedName",
+                  "data": {
+                    "name": "InnerModule",
+                    "qualification": null
+                  }
+                },
+                "modifiers": [
+                  "export"
+                ]
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": {
+            "constructorName": "QualifiedName",
+            "data": {
+              "name": "SomeModule",
+              "qualification": null
+            }
+          },
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Module",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "VariableDeclaration",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": " "
+                    }
+                  },
+                  {
+                    "constructorName": "Property",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "m"
+                        }
+                      },
+                      "type": null,
+                      "initializer": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "5"
+                        }
+                      },
+                      "modifiers": [],
+                      "decorators": [],
+                      "optional": false,
+                      "dotDotDot": false
+                    }
+                  }
+                ],
+                "modifiers": [],
+                "type": 1
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": {
+            "constructorName": "QualifiedName",
+            "data": {
+              "name": "Guy",
+              "qualification": {
+                "constructorName": "QualifiedName",
+                "data": {
+                  "name": "HouseThing",
+                  "qualification": null
+                }
+              }
+            }
+          },
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "EmptyExpression",
+        "data": {
+          "token": ""
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Enumeration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "EnumEntry",
+              "data": {
+                "name": {
+                  "constructorName": "ComputedDeclarationName",
+                  "data": {
+                    "computation": {
+                      "constructorName": "BinaryOperation",
+                      "data": {
+                        "operator": "+",
+                        "left": {
+                          "constructorName": "AtomicValue",
+                          "data": {
+                            "token": "\"Oran\""
+                          }
+                        },
+                        "right": {
+                          "constructorName": "AtomicValue",
+                          "data": {
+                            "token": "\"ge\""
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "initializer": null
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "EnumEntry",
+              "data": {
+                "name": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "\"Blue\""
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "77"
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "EnumEntry",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "Red"
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "1"
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "EnumEntry",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "Green"
+                  }
+                },
+                "initializer": null
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "EnumEntry",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "blue"
+                  }
+                },
+                "initializer": {
+                  "constructorName": "Parenthetical",
+                  "data": {
+                    "expression": {
+                      "constructorName": "BinaryOperation",
+                      "data": {
+                        "operator": "+",
+                        "left": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "Green"
+                          }
+                        },
+                        "right": {
+                          "constructorName": "AtomicValue",
+                          "data": {
+                            "token": "2"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "Suites",
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Class",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "constructor"
+                      }
+                    },
+                    "args": [],
+                    "returnType": null,
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [],
+                "isMethod": true,
+                "declaredOnly": true,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "methodOnDeclaredClass"
+                      }
+                    },
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "someParam"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "ArrayType",
+                            "data": {
+                              "elementType": {
+                                "constructorName": "ParenthesizedType",
+                                "data": {
+                                  "type": {
+                                    "constructorName": "UnionType",
+                                    "data": {
+                                      "names": [
+                                        {
+                                          "constructorName": "QualifiedTypeName",
+                                          "data": {
+                                            "name": {
+                                              "constructorName": "QualifiedName",
+                                              "data": {
+                                                "name": "Suites",
+                                                "qualification": null
+                                              }
+                                            },
+                                            "typeParameters": []
+                                          }
+                                        },
+                                        {
+                                          "constructorName": "ParenthesizedType",
+                                          "data": {
+                                            "type": {
+                                              "constructorName": "UnionType",
+                                              "data": {
+                                                "names": [
+                                                  {
+                                                    "constructorName": "KeywordType",
+                                                    "data": {
+                                                      "token": "number"
+                                                    }
+                                                  },
+                                                  {
+                                                    "constructorName": "KeywordType",
+                                                    "data": {
+                                                      "token": "string"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      }
+                    ],
+                    "returnType": {
+                      "constructorName": "KeywordType",
+                      "data": {
+                        "token": "number"
+                      }
+                    },
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [],
+                "isMethod": true,
+                "declaredOnly": true,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "DeclaredClass",
+          "modifiers": [
+            "declare"
+          ],
+          "parentClass": null,
+          "typeParameters": [],
+          "extended": [],
+          "decorators": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "a"
+                  }
+                },
+                "type": {
+                  "constructorName": "TypeLiteral",
+                  "data": {
+                    "elements": [
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "CallableSignature",
+                        "data": {
+                          "name": null,
+                          "args": [],
+                          "returnType": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "void"
+                            }
+                          },
+                          "typeParameters": [],
+                          "isOptional": false
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      }
+                    ]
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "null"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "b"
+                  }
+                },
+                "type": {
+                  "constructorName": "TypeOf",
+                  "data": {
+                    "operator": "typeof ",
+                    "expression": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "a"
+                      }
+                    },
+                    "postfix": false
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "null"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Interface",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            }
+          ],
+          "name": "OtherInterface",
+          "typeParameters": [
+            {
+              "constructorName": "TypeParameter",
+              "data": {
+                "name": "T",
+                "typeConstraint": null
+              }
+            }
+          ],
+          "extendedInterfaces": [],
+          "modifiers": [
+            "export"
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Interface",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Index",
+              "data": {
+                "keyName": "k",
+                "keyType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "string"
+                  }
+                },
+                "valueType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "number"
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "CallableSignature",
+              "data": {
+                "name": null,
+                "args": [
+                  {
+                    "constructorName": "Property",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "a"
+                        }
+                      },
+                      "type": null,
+                      "initializer": null,
+                      "modifiers": [],
+                      "decorators": [],
+                      "optional": false,
+                      "dotDotDot": false
+                    }
+                  },
+                  {
+                    "constructorName": "Property",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "b"
+                        }
+                      },
+                      "type": null,
+                      "initializer": null,
+                      "modifiers": [],
+                      "decorators": [],
+                      "optional": false,
+                      "dotDotDot": false
+                    }
+                  }
+                ],
+                "returnType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "number"
+                  }
+                },
+                "typeParameters": [],
+                "isOptional": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "CallableSignature",
+              "data": {
+                "name": null,
+                "args": [],
+                "returnType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "string"
+                  }
+                },
+                "typeParameters": [],
+                "isOptional": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "CallableSignature",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "new"
+                  }
+                },
+                "args": [
+                  {
+                    "constructorName": "Property",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "b"
+                        }
+                      },
+                      "type": null,
+                      "initializer": null,
+                      "modifiers": [],
+                      "decorators": [],
+                      "optional": false,
+                      "dotDotDot": false
+                    }
+                  }
+                ],
+                "returnType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "number"
+                  }
+                },
+                "typeParameters": [],
+                "isOptional": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "SomeInterface",
+          "typeParameters": [],
+          "extendedInterfaces": [
+            {
+              "constructorName": "QualifiedTypeName",
+              "data": {
+                "name": {
+                  "constructorName": "QualifiedName",
+                  "data": {
+                    "name": "OtherInterface",
+                    "qualification": null
+                  }
+                },
+                "typeParameters": [
+                  {
+                    "constructorName": "KeywordType",
+                    "data": {
+                      "token": "number"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Interface",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "CallableSignature",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "method"
+                  }
+                },
+                "args": [
+                  {
+                    "constructorName": "Property",
+                    "data": {
+                      "name": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "m"
+                        }
+                      },
+                      "type": {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "string"
+                        }
+                      },
+                      "initializer": null,
+                      "modifiers": [],
+                      "decorators": [],
+                      "optional": false,
+                      "dotDotDot": false
+                    }
+                  }
+                ],
+                "returnType": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "any"
+                  }
+                },
+                "typeParameters": [],
+                "isOptional": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "TheMan",
+          "typeParameters": [],
+          "extendedInterfaces": [],
+          "modifiers": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "TypeAlias",
+        "data": {
+          "name": "HatMan",
+          "type": {
+            "constructorName": "UnionType",
+            "data": {
+              "names": [
+                {
+                  "constructorName": "QualifiedTypeName",
+                  "data": {
+                    "name": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "OtherInterface",
+                        "qualification": null
+                      }
+                    },
+                    "typeParameters": [
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "number"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "string"
+                  }
+                }
+              ]
+            }
+          },
+          "modifiers": [
+            "export"
+          ]
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "constructorThing"
+                  }
+                },
+                "type": {
+                  "constructorName": "CallableType",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "new"
+                      }
+                    },
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "x"
+                            }
+                          },
+                          "type": null,
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      }
+                    ],
+                    "returnType": {
+                      "constructorName": "KeywordType",
+                      "data": {
+                        "token": "number"
+                      }
+                    },
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "null"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "Identifier",
+        "data": {
+          "token": "declare"
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": " "
+        }
+      },
+      {
+        "constructorName": "Call",
+        "data": {
+          "callable": {
+            "constructorName": "Identifier",
+            "data": {
+              "token": "me"
+            }
+          },
+          "args": [
+            {
+              "constructorName": "Identifier",
+              "data": {
+                "token": "i"
+              }
+            },
+            {
+              "constructorName": "Identifier",
+              "data": {
+                "token": "number"
+              }
+            }
+          ],
+          "typeArguments": []
+        }
+      },
+      {
+        "constructorName": "Identifier",
+        "data": {
+          "token": "number"
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "property"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "\"property\""
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "booleanType"
+                  }
+                },
+                "type": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "boolean"
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "true"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      },
+      {
+        "constructorName": "VariableDeclaration",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": " "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "anyType"
+                  }
+                },
+                "type": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "any"
+                  }
+                },
+                "initializer": {
+                  "constructorName": "ObjectLiteral",
+                  "data": {
+                    "elements": []
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            }
+          ],
+          "modifiers": [],
+          "type": 1
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n\n"
+        }
+      },
+      {
+        "constructorName": "Class",
+        "data": {
+          "elements": [
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithoutAccessor"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "5"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithType"
+                  }
+                },
+                "type": {
+                  "constructorName": "UnionType",
+                  "data": {
+                    "names": [
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "string"
+                        }
+                      },
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "number"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithGenerics"
+                  }
+                },
+                "type": {
+                  "constructorName": "QualifiedTypeName",
+                  "data": {
+                    "name": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "SomeInterface",
+                        "qualification": {
+                          "constructorName": "QualifiedName",
+                          "data": {
+                            "name": "InnerModule",
+                            "qualification": {
+                              "constructorName": "QualifiedName",
+                              "data": {
+                                "name": "SomeModule",
+                                "qualification": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "typeParameters": [
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "number"
+                        }
+                      },
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "string"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithBlankFunctionType"
+                  }
+                },
+                "type": {
+                  "constructorName": "CallableType",
+                  "data": {
+                    "name": null,
+                    "args": [],
+                    "returnType": {
+                      "constructorName": "KeywordType",
+                      "data": {
+                        "token": "void"
+                      }
+                    },
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithFunctionType"
+                  }
+                },
+                "type": {
+                  "constructorName": "CallableType",
+                  "data": {
+                    "name": null,
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "m"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "string"
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "c"
+                            }
+                          },
+                          "type": null,
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": true
+                        }
+                      }
+                    ],
+                    "returnType": {
+                      "constructorName": "QualifiedTypeName",
+                      "data": {
+                        "name": {
+                          "constructorName": "QualifiedName",
+                          "data": {
+                            "name": "SomeInterface",
+                            "qualification": {
+                              "constructorName": "QualifiedName",
+                              "data": {
+                                "name": "InnerModule",
+                                "qualification": {
+                                  "constructorName": "QualifiedName",
+                                  "data": {
+                                    "name": "SomeModule",
+                                    "qualification": null
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "typeParameters": [
+                          {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "number"
+                            }
+                          },
+                          {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "string"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "typeParameters": [
+                      {
+                        "constructorName": "TypeParameter",
+                        "data": {
+                          "name": "A",
+                          "typeConstraint": null
+                        }
+                      }
+                    ],
+                    "isOptional": false
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithAccessorType"
+                  }
+                },
+                "type": {
+                  "constructorName": "TypeLiteral",
+                  "data": {
+                    "elements": [
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "Index",
+                        "data": {
+                          "keyName": "key",
+                          "keyType": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "number"
+                            }
+                          },
+                          "valueType": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "number"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      }
+                    ]
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "memberWithInterfaceType"
+                  }
+                },
+                "type": {
+                  "constructorName": "TypeLiteral",
+                  "data": {
+                    "elements": [
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "hat"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "string"
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "cow"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "KeywordType",
+                            "data": {
+                              "token": "number"
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Spacing",
+                        "data": {
+                          "token": " "
+                        }
+                      }
+                    ]
+                  }
+                },
+                "initializer": null,
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n    "
+                    }
+                  },
+                  {
+                    "constructorName": "Call",
+                    "data": {
+                      "callable": {
+                        "constructorName": "Identifier",
+                        "data": {
+                          "token": "super"
+                        }
+                      },
+                      "args": [],
+                      "typeArguments": []
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  }
+                ],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "constructor"
+                      }
+                    },
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "b"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "UnionType",
+                            "data": {
+                              "names": [
+                                {
+                                  "constructorName": "KeywordType",
+                                  "data": {
+                                    "token": "string"
+                                  }
+                                },
+                                {
+                                  "constructorName": "KeywordType",
+                                  "data": {
+                                    "token": "number"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "c"
+                            }
+                          },
+                          "type": null,
+                          "initializer": {
+                            "constructorName": "AtomicValue",
+                            "data": {
+                              "token": "55"
+                            }
+                          },
+                          "modifiers": [
+                            "private"
+                          ],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "m"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "ArrayType",
+                            "data": {
+                              "elementType": {
+                                "constructorName": "KeywordType",
+                                "data": {
+                                  "token": "number"
+                                }
+                              }
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": true
+                        }
+                      }
+                    ],
+                    "returnType": null,
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [],
+                "isMethod": true,
+                "declaredOnly": false,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "ComputedDeclarationName",
+                  "data": {
+                    "computation": {
+                      "constructorName": "BinaryOperation",
+                      "data": {
+                        "operator": "+",
+                        "left": {
+                          "constructorName": "AtomicValue",
+                          "data": {
+                            "token": "\"computed\""
+                          }
+                        },
+                        "right": {
+                          "constructorName": "Identifier",
+                          "data": {
+                            "token": "property"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": {
+                  "constructorName": "KeywordType",
+                  "data": {
+                    "token": "number"
+                  }
+                },
+                "initializer": {
+                  "constructorName": "AtomicValue",
+                  "data": {
+                    "token": "50"
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n    "
+                    }
+                  },
+                  {
+                    "constructorName": "Return",
+                    "data": {
+                      "operator": "return ",
+                      "expression": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "3"
+                        }
+                      },
+                      "postfix": false
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  }
+                ],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "propertyOne"
+                      }
+                    },
+                    "args": [],
+                    "returnType": null,
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [
+                  "get"
+                ],
+                "isMethod": true,
+                "declaredOnly": false,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n\n  "
+                    }
+                  }
+                ],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "propertyOne"
+                      }
+                    },
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "v"
+                            }
+                          },
+                          "type": null,
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      }
+                    ],
+                    "returnType": null,
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [
+                  "set"
+                ],
+                "isMethod": true,
+                "declaredOnly": false,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Function",
+              "data": {
+                "elements": [
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n    "
+                    }
+                  },
+                  {
+                    "constructorName": "BinaryOperation",
+                    "data": {
+                      "operator": "+",
+                      "left": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "1"
+                        }
+                      },
+                      "right": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n\n    // Comment in the method.\n\n    "
+                    }
+                  },
+                  {
+                    "constructorName": "Return",
+                    "data": {
+                      "operator": "return ",
+                      "expression": {
+                        "constructorName": "AtomicValue",
+                        "data": {
+                          "token": "5"
+                        }
+                      },
+                      "postfix": false
+                    }
+                  },
+                  {
+                    "constructorName": "Spacing",
+                    "data": {
+                      "token": "\n  "
+                    }
+                  }
+                ],
+                "callableSignature": {
+                  "constructorName": "CallableSignature",
+                  "data": {
+                    "name": {
+                      "constructorName": "Identifier",
+                      "data": {
+                        "token": "methodOnClass"
+                      }
+                    },
+                    "args": [
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "withParams"
+                            }
+                          },
+                          "type": null,
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      },
+                      {
+                        "constructorName": "Property",
+                        "data": {
+                          "name": {
+                            "constructorName": "Identifier",
+                            "data": {
+                              "token": "andMore"
+                            }
+                          },
+                          "type": {
+                            "constructorName": "QualifiedTypeName",
+                            "data": {
+                              "name": {
+                                "constructorName": "QualifiedName",
+                                "data": {
+                                  "name": "SomeInterface",
+                                  "qualification": {
+                                    "constructorName": "QualifiedName",
+                                    "data": {
+                                      "name": "InnerModule",
+                                      "qualification": {
+                                        "constructorName": "QualifiedName",
+                                        "data": {
+                                          "name": "SomeModule",
+                                          "qualification": null
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "typeParameters": [
+                                {
+                                  "constructorName": "KeywordType",
+                                  "data": {
+                                    "token": "number"
+                                  }
+                                },
+                                {
+                                  "constructorName": "UnionType",
+                                  "data": {
+                                    "names": [
+                                      {
+                                        "constructorName": "KeywordType",
+                                        "data": {
+                                          "token": "string"
+                                        }
+                                      },
+                                      {
+                                        "constructorName": "KeywordType",
+                                        "data": {
+                                          "token": "number"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "initializer": null,
+                          "modifiers": [],
+                          "decorators": [],
+                          "optional": false,
+                          "dotDotDot": false
+                        }
+                      }
+                    ],
+                    "returnType": {
+                      "constructorName": "KeywordType",
+                      "data": {
+                        "token": "number"
+                      }
+                    },
+                    "typeParameters": [],
+                    "isOptional": false
+                  }
+                },
+                "modifiers": [
+                  "public"
+                ],
+                "isMethod": true,
+                "declaredOnly": false,
+                "decorators": []
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n\n  "
+              }
+            },
+            {
+              "constructorName": "Property",
+              "data": {
+                "name": {
+                  "constructorName": "Identifier",
+                  "data": {
+                    "token": "boundMethod"
+                  }
+                },
+                "type": null,
+                "initializer": {
+                  "constructorName": "Parenthetical",
+                  "data": {
+                    "expression": {
+                      "constructorName": "Lambda",
+                      "data": {
+                        "elements": [
+                          {
+                            "constructorName": "Spacing",
+                            "data": {
+                              "token": " "
+                            }
+                          },
+                          {
+                            "constructorName": "Return",
+                            "data": {
+                              "operator": "return ",
+                              "expression": {
+                                "constructorName": "BinaryOperation",
+                                "data": {
+                                  "operator": "+",
+                                  "left": {
+                                    "constructorName": "PropertyAccess",
+                                    "data": {
+                                      "expression": {
+                                        "constructorName": "Identifier",
+                                        "data": {
+                                          "token": "this"
+                                        }
+                                      },
+                                      "property": "memberWithoutAccessor"
+                                    }
+                                  },
+                                  "right": {
+                                    "constructorName": "Identifier",
+                                    "data": {
+                                      "token": "five"
+                                    }
+                                  }
+                                }
+                              },
+                              "postfix": false
+                            }
+                          },
+                          {
+                            "constructorName": "Spacing",
+                            "data": {
+                              "token": " "
+                            }
+                          }
+                        ],
+                        "callableSignature": {
+                          "constructorName": "CallableSignature",
+                          "data": {
+                            "name": null,
+                            "args": [
+                              {
+                                "constructorName": "Property",
+                                "data": {
+                                  "name": {
+                                    "constructorName": "Identifier",
+                                    "data": {
+                                      "token": "five"
+                                    }
+                                  },
+                                  "type": {
+                                    "constructorName": "KeywordType",
+                                    "data": {
+                                      "token": "number"
+                                    }
+                                  },
+                                  "initializer": null,
+                                  "modifiers": [],
+                                  "decorators": [],
+                                  "optional": false,
+                                  "dotDotDot": false
+                                }
+                              }
+                            ],
+                            "returnType": null,
+                            "typeParameters": [],
+                            "isOptional": false
+                          }
+                        },
+                        "isSingleExpression": false,
+                        "withoutParanthesis": false
+                      }
+                    }
+                  }
+                },
+                "modifiers": [],
+                "decorators": [],
+                "optional": false,
+                "dotDotDot": false
+              }
+            },
+            {
+              "constructorName": "Spacing",
+              "data": {
+                "token": "\n"
+              }
+            }
+          ],
+          "name": "WithExtendsAndInterface",
+          "modifiers": [
+            "export"
+          ],
+          "parentClass": {
+            "constructorName": "QualifiedTypeName",
+            "data": {
+              "name": {
+                "constructorName": "QualifiedName",
+                "data": {
+                  "name": "PlainClass",
+                  "qualification": null
+                }
+              },
+              "typeParameters": []
+            }
+          },
+          "typeParameters": [
+            {
+              "constructorName": "TypeParameter",
+              "data": {
+                "name": "A",
+                "typeConstraint": {
+                  "constructorName": "QualifiedTypeName",
+                  "data": {
+                    "name": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "SomeInterface",
+                        "qualification": {
+                          "constructorName": "QualifiedName",
+                          "data": {
+                            "name": "InnerModule",
+                            "qualification": {
+                              "constructorName": "QualifiedName",
+                              "data": {
+                                "name": "SomeModule",
+                                "qualification": null
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "typeParameters": [
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "number"
+                        }
+                      },
+                      {
+                        "constructorName": "KeywordType",
+                        "data": {
+                          "token": "string"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "constructorName": "TypeParameter",
+              "data": {
+                "name": "B",
+                "typeConstraint": null
+              }
+            }
+          ],
+          "extended": [
+            {
+              "constructorName": "QualifiedTypeName",
+              "data": {
+                "name": {
+                  "constructorName": "QualifiedName",
+                  "data": {
+                    "name": "MyInterface",
+                    "qualification": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "bag",
+                        "qualification": null
+                      }
+                    }
+                  }
+                },
+                "typeParameters": []
+              }
+            },
+            {
+              "constructorName": "QualifiedTypeName",
+              "data": {
+                "name": {
+                  "constructorName": "QualifiedName",
+                  "data": {
+                    "name": "SomeInterface",
+                    "qualification": {
+                      "constructorName": "QualifiedName",
+                      "data": {
+                        "name": "InnerModule",
+                        "qualification": {
+                          "constructorName": "QualifiedName",
+                          "data": {
+                            "name": "SomeModule",
+                            "qualification": null
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "typeParameters": [
+                  {
+                    "constructorName": "QualifiedTypeName",
+                    "data": {
+                      "name": {
+                        "constructorName": "QualifiedName",
+                        "data": {
+                          "name": "SomeInterface",
+                          "qualification": {
+                            "constructorName": "QualifiedName",
+                            "data": {
+                              "name": "InnerModule",
+                              "qualification": {
+                                "constructorName": "QualifiedName",
+                                "data": {
+                                  "name": "SomeModule",
+                                  "qualification": null
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "typeParameters": [
+                        {
+                          "constructorName": "QualifiedTypeName",
+                          "data": {
+                            "name": {
+                              "constructorName": "QualifiedName",
+                              "data": {
+                                "name": "A",
+                                "qualification": null
+                              }
+                            },
+                            "typeParameters": []
+                          }
+                        },
+                        {
+                          "constructorName": "UnionType",
+                          "data": {
+                            "names": [
+                              {
+                                "constructorName": "KeywordType",
+                                "data": {
+                                  "token": "number"
+                                }
+                              },
+                              {
+                                "constructorName": "ArrayType",
+                                "data": {
+                                  "elementType": {
+                                    "constructorName": "QualifiedTypeName",
+                                    "data": {
+                                      "name": {
+                                        "constructorName": "QualifiedName",
+                                        "data": {
+                                          "name": "MyClass",
+                                          "qualification": {
+                                            "constructorName": "QualifiedName",
+                                            "data": {
+                                              "name": "bag",
+                                              "qualification": null
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "typeParameters": []
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "constructorName": "QualifiedTypeName",
+                    "data": {
+                      "name": {
+                        "constructorName": "QualifiedName",
+                        "data": {
+                          "name": "MyInterface",
+                          "qualification": {
+                            "constructorName": "QualifiedName",
+                            "data": {
+                              "name": "bag",
+                              "qualification": null
+                            }
+                          }
+                        }
+                      },
+                      "typeParameters": []
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "decorators": []
+        }
+      },
+      {
+        "constructorName": "Spacing",
+        "data": {
+          "token": "\n"
+        }
+      }
+    ],
+    "fileName": "test/fixtures/types/index.ts"
+  }
+}
