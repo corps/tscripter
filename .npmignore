@@ -7,3 +7,4 @@ notebook
 tsd.json
 !lib/*.d.ts
 !index.d.ts
+tutorial.html

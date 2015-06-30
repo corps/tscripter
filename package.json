@@ -1,6 +1,6 @@
 {
   "name": "tscripter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Typescript code generation tools.",
   "main": "index.js",
   "scripts": {

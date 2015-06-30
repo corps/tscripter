@@ -5,7 +5,7 @@
 
 ## Tutorial
 
-You can see tscripter in action via an [`ijavascript`](https://github.com/n-riesco/ijavascript) notebook [`here`](tutorial.html).
+You can see tscripter in action via an [`ijavascript`](https://github.com/n-riesco/ijavascript) notebook [`here`](https://cdn.rawgit.com/corps/typescripter/master/tutorial.html).
 
 ## Overview
 

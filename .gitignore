@@ -9,3 +9,4 @@ test/**/*.js
 .idea/jsLibraryMappings.xml
 .idea/libraries
 test/TypeScript
+notebook/.ipynb_checkpoints
