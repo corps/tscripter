@@ -57,12 +57,12 @@ export declare class CodeNode {
     to rerender the node using buildString().  Note that because CodeNode itself is used as a
     fallback for any syntax not understood by tscripter, marking it dirty cannot erase
     the text for typescript will have no idea how to re-render it.
-
+  
     This method should be called **anytime an attribute or child** is modified or has its text
     rendering changed.  This is to increase the efficiency of transforming small details of
     potentially large files.  When in doubt, use recursive = true to ensure the absolute most
     up to date rendering via toString().
-
+  
     @param recursive
     when true, will also act recursively by calling walkChildren.
     */
@@ -82,7 +82,7 @@ export declare class CodeNode {
     /**
     Recursively walks this node's children breadth first searching for a node for which
     predicateF returns true.
-
+  
     @param predicateF given each CodeNode traversed and determines when the search should complete.
     @param includeSelf iff true, this node will also be traversed.
     @returns the first CodeNode, or null, that meets the condition given by predicateF.
@@ -97,7 +97,7 @@ export declare class CodeNode {
     /**
       Most nodes typically use the ; to indicate statement termination, but
       some special cases (specifically code blocks themselves) do not.
-
+  
       @returns the string to be appended to the end of this CodeNode when it
       appears as a block level statement.
     */
@@ -454,9 +454,9 @@ export declare class Class extends CodeBlock {
     modifiers: string[];
     parentClass: QualifiedTypeName;
     typeParameters: TypeParameter[];
-    extended: QualifiedTypeName[];
+    implementedInterfaces: QualifiedTypeName[];
     decorators: Expression[];
-    constructor(name: string, modifiers?: string[], parentClass?: QualifiedTypeName, typeParameters?: TypeParameter[], extended?: QualifiedTypeName[], decorators?: Expression[]);
+    constructor(name: string, modifiers?: string[], parentClass?: QualifiedTypeName, typeParameters?: TypeParameter[], implementedInterfaces?: QualifiedTypeName[], decorators?: Expression[]);
     buildChildren(): CodeNode[];
     buildString(): string;
     classNode: ts.ClassElement;
@@ -477,13 +477,13 @@ export declare class Spacing extends SimpleNode {
   * a two element array mapping an Identifier to a naming one identifier as another, eg A as B
 */
 export declare class NamedImportOrExports extends CodeNode {
-    parts: ([Identifier] | [Identifier, Identifier])[];
+    parts: ([Identifier]|[Identifier, Identifier])[];
     /**
     @param parts each element should be either a single Identifier being imported / exported
     under the same name as it was defined, or a pair of Identifiers mapping the definition
     Identifier 'as' another Identifier.
     */
-    constructor(parts?: ([Identifier] | [Identifier, Identifier])[]);
+    constructor(parts?: ([Identifier]|[Identifier, Identifier])[]);
     buildString(): string;
     buildChildren(): CodeNode[];
 }

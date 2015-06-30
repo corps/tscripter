@@ -24,7 +24,7 @@ export declare class AnalyzerHost {
     param compilerOptions ignored when entryPoints is an existing ts.Program.  Used when
     instantiating a new ts.Program from the given entryPoints.
     */
-    constructor(entryPoints: string[] | ts.Program, compilerOptions?: ts.CompilerOptions);
+    constructor(entryPoints: string[]| ts.Program, compilerOptions?: ts.CompilerOptions);
     /**
     returns a statements.Source for all entry points for the current host
     param recursive passed in to the .analyze call for each source.
@@ -69,7 +69,7 @@ export declare class SourceAnalyzer {
     Analyzes the top level source statements and fills the statements.  Source elements array
     with new CodeNodes corresponding to the analyzed AST.  Please see the recursive constructor
     parameter.
-
+  
     analyze and analyzeBody both will not re-analyze the same block twice
     upon multiple invocations without a call to the block's own resetBody().
     This makes these calls idempotent and safe to call multiple times without
@@ -81,7 +81,7 @@ export declare class SourceAnalyzer {
     as this analyzer, and fills its elements array out with new CodeNodes
     corresponding to the analyzed AST.  Please see the recursive constructor
     parameter.
-
+  
     analyze and analyzeBody both will not re-analyze the same block twice
     upon multiple invocations without a call to the block's own resetBody().
     This makes these calls idempotent and safe to call multiple times without

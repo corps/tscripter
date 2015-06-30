@@ -21,7 +21,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -53,7 +53,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -63,7 +63,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -93,7 +93,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -118,7 +118,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -149,7 +149,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -198,7 +198,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -210,12 +210,12 @@
           ],
           "parentClass": null,
           "typeParameters": [],
-          "extended": [],
+          "implementedInterfaces": [],
           "decorators": []
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -225,7 +225,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -235,7 +235,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n    "
                     }
@@ -245,7 +245,7 @@
                     "data": {
                       "elements": [
                         {
-                          "constructorName": "Spacing",
+                          "constructorName": "Trivia",
                           "data": {
                             "token": " "
                           }
@@ -275,7 +275,7 @@
                     }
                   },
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n  "
                     }
@@ -294,7 +294,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -311,7 +311,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -321,7 +321,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -331,7 +331,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": " "
                     }
@@ -364,7 +364,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -393,7 +393,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -403,7 +403,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -438,7 +438,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -461,7 +461,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -484,7 +484,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -502,7 +502,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -542,7 +542,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -553,7 +553,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -563,7 +563,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -594,7 +594,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -701,7 +701,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -713,12 +713,12 @@
           ],
           "parentClass": null,
           "typeParameters": [],
-          "extended": [],
+          "implementedInterfaces": [],
           "decorators": []
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -728,7 +728,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -747,7 +747,7 @@
                   "data": {
                     "elements": [
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -768,7 +768,7 @@
                         }
                       },
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -794,7 +794,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }
@@ -804,7 +804,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -849,7 +849,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -859,7 +859,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -882,7 +882,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }
@@ -892,7 +892,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -916,7 +916,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -972,7 +972,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -993,7 +993,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1037,7 +1037,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -1071,7 +1071,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -1081,7 +1081,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1130,7 +1130,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -1143,7 +1143,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -1191,7 +1191,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -1201,7 +1201,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -1271,7 +1271,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }
@@ -1283,7 +1283,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": " "
         }
@@ -1321,7 +1321,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -1331,7 +1331,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -1364,7 +1364,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }
@@ -1374,7 +1374,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -1412,7 +1412,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }
@@ -1422,7 +1422,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": " "
               }
@@ -1460,7 +1460,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n\n"
         }
@@ -1470,7 +1470,7 @@
         "data": {
           "elements": [
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1498,7 +1498,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1539,7 +1539,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1599,7 +1599,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1636,7 +1636,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1753,7 +1753,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1772,7 +1772,7 @@
                   "data": {
                     "elements": [
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -1796,7 +1796,7 @@
                         }
                       },
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -1812,7 +1812,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n  "
               }
@@ -1831,7 +1831,7 @@
                   "data": {
                     "elements": [
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -1859,7 +1859,7 @@
                         }
                       },
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -1887,7 +1887,7 @@
                         }
                       },
                       {
-                        "constructorName": "Spacing",
+                        "constructorName": "Trivia",
                         "data": {
                           "token": " "
                         }
@@ -1903,7 +1903,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -1913,7 +1913,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n    "
                     }
@@ -1932,7 +1932,7 @@
                     }
                   },
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n  "
                     }
@@ -2047,7 +2047,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -2097,7 +2097,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -2107,7 +2107,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n    "
                     }
@@ -2126,7 +2126,7 @@
                     }
                   },
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n  "
                     }
@@ -2156,7 +2156,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -2166,7 +2166,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n\n  "
                     }
@@ -2214,7 +2214,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -2224,7 +2224,7 @@
               "data": {
                 "elements": [
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n    "
                     }
@@ -2248,7 +2248,7 @@
                     }
                   },
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n\n    // Comment in the method.\n\n    "
                     }
@@ -2267,7 +2267,7 @@
                     }
                   },
                   {
-                    "constructorName": "Spacing",
+                    "constructorName": "Trivia",
                     "data": {
                       "token": "\n  "
                     }
@@ -2387,7 +2387,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n\n  "
               }
@@ -2410,7 +2410,7 @@
                       "data": {
                         "elements": [
                           {
-                            "constructorName": "Spacing",
+                            "constructorName": "Trivia",
                             "data": {
                               "token": " "
                             }
@@ -2447,7 +2447,7 @@
                             }
                           },
                           {
-                            "constructorName": "Spacing",
+                            "constructorName": "Trivia",
                             "data": {
                               "token": " "
                             }
@@ -2499,7 +2499,7 @@
               }
             },
             {
-              "constructorName": "Spacing",
+              "constructorName": "Trivia",
               "data": {
                 "token": "\n"
               }
@@ -2575,7 +2575,7 @@
               }
             }
           ],
-          "extended": [
+          "implementedInterfaces": [
             {
               "constructorName": "QualifiedTypeName",
               "data": {
@@ -2721,7 +2721,7 @@
         }
       },
       {
-        "constructorName": "Spacing",
+        "constructorName": "Trivia",
         "data": {
           "token": "\n"
         }

@@ -13,18 +13,19 @@
     "format-index": "./node_modules/typescript-formatter/bin/tsfmt -r index.ts",
     "format": "npm run format-tests && npm run format-lib && npm run format-index",
     "build-tutorial": "ipython nbconvert --to html notebook/tutorial.ipynb",
+    "build-declarations": "./node_modules/typescript/bin/tsc --target es5 --module commonjs typings/all.d.ts --declaration lib/statements.ts lib/analyzer.ts",
     "prepublish": "./node_modules/typescript/bin/tsc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/corps/typescripter.git"
+    "url": "https://github.com/corps/tscripter.git"
   },
   "author": "recursive.cookie.jar@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/corps/typescripter/issues"
+    "url": "https://github.com/corps/tscripter/issues"
   },
-  "homepage": "https://github.com/corps/typescripter",
+  "homepage": "https://github.com/corps/tscripter",
   "dependencies": {
     "typescript": "^1.5.0-beta"
   },

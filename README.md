@@ -1,11 +1,11 @@
 # tscripter
-![build status](https://travis-ci.org/corps/typescripter.svg)
+![build status](https://travis-ci.org/corps/tscripter.svg)
 
 `tscripter` is a library for producing and analyzing [`typescript`](https://github.com/Microsoft/TypeScript) code.  Unlike the traditional AST provided by typescript's language services, `tscripter` produces a syntax tree whose structure can be slice, moved, duplicated, tweaked and then re-rendered, allowing for simpler programatic transformation of existing code.  Basically, **tscripter is for code generators**.
 
 ## Tutorial
 
-You can see tscripter in action via an [`ijavascript`](https://github.com/n-riesco/ijavascript) notebook [`here`](https://cdn.rawgit.com/corps/typescripter/master/tutorial.html).
+You can see tscripter in action via an [`ijavascript`](https://github.com/n-riesco/ijavascript) notebook [`here`](https://cdn.rawgit.com/corps/tscripter/master/tutorial.html).
 
 ## Overview
 
