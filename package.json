@@ -12,6 +12,7 @@
     "format-lib": "find lib | grep \"\\.ts\" | xargs ./node_modules/typescript-formatter/bin/tsfmt -r",
     "format-index": "./node_modules/typescript-formatter/bin/tsfmt -r index.ts",
     "format": "npm run format-tests && npm run format-lib && npm run format-index",
+    "build-tutorial": "ipython nbconvert --to html notebook/tutorial.ipynb",
     "prepublish": "./node_modules/typescript/bin/tsc"
   },
   "repository": {
