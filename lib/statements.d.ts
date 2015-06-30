@@ -308,7 +308,7 @@ export declare class TypeParameter extends CodeNode {
 }
 /**
   A type representing an anonymous interface eg { a: number, b: string }
-  Elements are generally Spacing or PropertyIndexOrCallables.
+  Elements are generally Trivia or PropertyIndexOrCallables.
 */
 export declare class TypeLiteral extends CodeBlock {
 }
@@ -463,11 +463,11 @@ export declare class Class extends CodeBlock {
     private buildDeclarationHead();
 }
 /**
-  Spacing represents any whitespace trivia included before or after other CodeNode's
+  Trivia represents any whitespace trivia included before or after other CodeNode's
   in blocks. They are preserved as separate nodes so as to make transformation while
   retaining code style more plausible.
 */
-export declare class Spacing extends SimpleNode {
+export declare class Trivia extends SimpleNode {
     statementLevelTerminal(): string;
 }
 /**
@@ -691,7 +691,7 @@ export declare class ObjectLiteralProperty extends CodeNode {
     buildChildren(): CodeNode[];
     buildString(): string;
 }
-/** ObjectLiterals are composed of either Spacing or these elements. */
+/** ObjectLiterals are composed of either Trivia or these elements. */
 export declare type ObjectLiteralElement = ObjectLiteralProperty | Function;
 /** Similar to property access, but for bracket element access, eg myArray[0] */
 export declare class ElementAccess extends CodeNode {
@@ -721,7 +721,7 @@ export declare class TypeOf extends UnaryOperation {
     constructor(expression: Expression);
 }
 /**
-  A block representing an ObjectLiteral, composed generally of Spacing,
+  A block representing an ObjectLiteral, composed generally of Trivia,
   ObjectLiteralProperties and Functions
 */
 export declare class ObjectLiteral extends AbstractExpressionBlock {
@@ -824,7 +824,7 @@ export declare enum VariableDeclarationType {
 }
 /**
   Variable declarations are expression blocks that can contain multiple Property
-  and Spacing entries representing each declaration.  ie var a, b, c = 1;
+  and Trivia entries representing each declaration.  ie var a, b, c = 1;
   Convenience method forProperty can produce a variable declaration block for a single
   variable givn by the Property;  This class is used for all of LET, VAR, and CONST
   constructs.
@@ -908,7 +908,7 @@ export declare class Case extends AbstractStatementBlock {
     buildString(): string;
 }
 /**
-  Switches are composed generally of Spacing and Case statements.
+  Switches are composed generally of Trivia and Case statements.
 */
 export declare class Switch extends CodeBlock {
     expression: Expression;
