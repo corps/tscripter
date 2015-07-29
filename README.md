@@ -1,7 +1,14 @@
 # tscripter
 ![build status](https://travis-ci.org/corps/tscripter.svg)
 
-`tscripter` is a library for producing and analyzing [`typescript`](https://github.com/Microsoft/TypeScript) code.  Unlike the traditional AST provided by typescript's language services, `tscripter` produces a syntax tree whose structure can be slice, moved, duplicated, tweaked and then re-rendered, allowing for simpler programatic transformation of existing code.  Basically, **tscripter is for code generators**.
+`tscripter` is a library for producing and analyzing [`typescript`](https://github.com/Microsoft/TypeScript) code.  Unlike the traditional AST provided by typescript's language services, `tscripter` produces a syntax tree whose structure can be slice, moved, duplicated, tweaked and then re-rendered, allowing for simpler programmatic transformation of existing code.  Basically, **tscripter is for code generators**.
+
+## Setup
+
+```
+npm install tscripter --save
+tsd link
+```
 
 ## Tutorial
 
@@ -39,4 +46,4 @@ However, `tscripter` **will properly preserve** this kind of formatting in exist
 
 ## Support
 
-`tscripter` supports all syntax in typescript `1.5.0-beta`, passing all conformance related spec files in the `typescript` codebase itself.  There may, once again, be some edge cases where the formatting of `tscripter` will differ, but it will still produce valid code and preserve existing formatting when possible.
+`tscripter` supports all syntax in typescript `1.5.3`, passing all conformance related spec files in the `typescript` codebase itself.  There may, once again, be some edge cases where the formatting of `tscripter` will differ, but it will still produce valid code and preserve existing formatting when possible.

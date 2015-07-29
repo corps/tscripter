@@ -22,6 +22,7 @@
         "./typings/all.d.ts",
         "./test/*.test.ts",
         "./index.ts",
+        "./index.d.ts",
         "./lib/**/*.ts"
     ],
     "files": [
@@ -29,6 +30,7 @@
         "./test/analyzer.test.ts",
         "./test/typescript-conformance.test.ts",
         "./index.ts",
+        "./index.d.ts",
         "./lib/analyzer.d.ts",
         "./lib/analyzer.ts",
         "./lib/statements.d.ts",

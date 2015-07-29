@@ -8,4 +8,4 @@ fi
 
 cd TypeScript
 git fetch
-git reset v1.5.0-beta --hard
+git reset v1.5.3 --hard

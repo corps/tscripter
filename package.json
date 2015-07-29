@@ -1,8 +1,11 @@
 {
   "name": "tscripter",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Typescript code generation tools.",
   "main": "index.js",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "test-fast": "./node_modules/mocha/bin/mocha -i --grep \"@slow\"",
@@ -27,7 +30,7 @@
   },
   "homepage": "https://github.com/corps/tscripter",
   "dependencies": {
-    "typescript": "^1.5.0-beta"
+    "typescript": "~1.5.3"
   },
   "devDependencies": {
     "typescript-formatter": "^0.3.2",

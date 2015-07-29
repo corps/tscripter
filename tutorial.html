@@ -129,14 +129,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -192,14 +192,8 @@ div#notebook {
 
 <pre><code>/// &lt;reference path="./node_modules/tscripter/index.d.ts" /&gt;</code></pre>
 <ul>
-<li>In order to use <code>tscripter</code>'s .d.ts files, you'll need to reference a copy of <code>typescript.d.ts</code> to resolve the external <code>typescript</code> module declaration.  Unfortunately, due to typescript's current handling of .d.ts files and the risk of duplicate declarations, <code>tscripter</code> leaves this dependency unresolved to prevent conflicts for projects that already include the <code>typescript.d.ts</code> file.  For projects that do not already, you can include the file in your <code>tsconfig.json</code> or add as an ambient reference</li>
+<li>If you use tsd, you can also simply use the tsd link command.</li>
 </ul>
-
-<pre><code>{
-  files: ['./node_modules/tscripter/node_modules/typescript/bin/typescript.d.ts', ...]
-}</code></pre>
-
-<pre><code>/// &lt;reference path="./node_modules/tscripter/node_modules/typescript/typescript.d.ts" /&gt;</code></pre>
 
 </div>
 </div>
@@ -312,7 +306,7 @@ div#notebook {
 
 <div class="output_text output_subarea output_execute_result">
 <pre>{ constructorName: &apos;Source&apos;,
-  data: 
+  data:
    { elements: [ [Object], [Object] ],
      fileName: &apos;node_modules/tscripter/index.d.ts&apos; } }</pre>
 </div>

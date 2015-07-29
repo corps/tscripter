@@ -583,7 +583,7 @@ export class SourceAnalyzer {
     if (interfaceDeclaration.heritageClauses) {
       interfaceDeclaration.heritageClauses.forEach((heritage: ts.HeritageClause) => {
         if (heritage.token == ts.SyntaxKind.ExtendsKeyword) {
-          heritage.types.forEach((t: ts.HeritageClauseElement) => {
+          heritage.types.forEach((t: ts.ExpressionWithTypeArguments) => {
             extendedInterfaces.push(this.analyzeHeritageClause(t))
           })
         } else {
@@ -842,7 +842,7 @@ export class SourceAnalyzer {
     if (classDeclaration.heritageClauses) {
       classDeclaration.heritageClauses.forEach((heritage: ts.HeritageClause) => {
         if (heritage.token == ts.SyntaxKind.ImplementsKeyword) {
-          heritage.types.forEach((type: ts.HeritageClauseElement) => {
+          heritage.types.forEach((type: ts.ExpressionWithTypeArguments) => {
             interfaces.push(this.analyzeHeritageClause(type));
           });
         } else if (heritage.token == ts.SyntaxKind.ExtendsKeyword && heritage.types.length > 0) {
@@ -1085,7 +1085,7 @@ export class SourceAnalyzer {
         let forStmt = <ts.ForStatement>statement;
         result = new statements.For(this.analyzeForInitializer(forStmt),
           this.analyzeExpression(forStmt.condition),
-          this.analyzeExpression(forStmt.iterator),
+          this.analyzeExpression(forStmt.incrementor),
           this.analyzeStatement(forStmt.statement));
         break;
       case ts.SyntaxKind.TryStatement:
@@ -1198,9 +1198,9 @@ export class SourceAnalyzer {
     if (bindingElement.name == null) {
       result = new statements.EmptyExpression();
     } else {
-      var propertyName: statements.Identifier = null;
+      var propertyName: statements.ElementDeclarationName = null;
       if (bindingElement.propertyName != null) {
-        propertyName = this.analyzeIdentifier(bindingElement.propertyName)
+        propertyName = this.analyzeElementDeclarationName(bindingElement.propertyName);
       }
       var binding: statements.BindingPropertyName;
       if (bindingElement.name.kind == ts.SyntaxKind.Identifier) {
@@ -1323,7 +1323,7 @@ export class SourceAnalyzer {
     return result;
   }
 
-  private analyzeHeritageClause(type: ts.HeritageClauseElement): statements.QualifiedTypeName {
+  private analyzeHeritageClause(type: ts.ExpressionWithTypeArguments): statements.QualifiedTypeName {
     var generics: statements.Type[] = [];
     if (type.typeArguments) {
       generics = this.analyzeTypes(type.typeArguments);

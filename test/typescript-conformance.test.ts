@@ -32,16 +32,18 @@ describe("Typescript Conformance @slow", () => {
     testCases = testCases.slice(idx);
 
     var skipped: string[] = [
-    // Typescripter doesn't support comments in template string expressions
+        // comments in enums entries.
+        "ambient/ambientEnumDeclaration2.ts",
+    // tscripter doesn't support comments in template string expressions
         "es6/templates/templateStringWithEmbeddedComments.ts",
         "es6/templates/templateStringWithEmbeddedCommentsES6.ts",
-    // Typescripter doesn't support comments in ternary operators
+    // tscripter doesn't support comments in ternary operators
         "expressions/typeGuards/typeGuardsInConditionalExpression.ts",
         "expressions/typeGuards/typeGuardsInFunctionAndModuleBlock.ts",
         "expressions/typeGuards/typeGuardsInIfStatement.ts",
         "expressions/typeGuards/typeGuardsInRightOperandOfAndAndOperator.ts",
         "expressions/typeGuards/typeGuardsInRightOperandOfOrOrOperator.ts",
-    // Typescripter doesn't produce comma separated type literal
+    // tscripter doesn't produce comma separated type literal
         "internalModules/exportDeclarations/ExportObjectLiteralAndObjectTypeLiteralWithAccessibleTypesInNestedMemberTypeAnnotations.ts",
         "parser/ecmascript5/ErrorRecovery/parserCommaInTypeMemberList1.ts",
     // Cleanup code makes testing omitted arrays tricky, but other tests in the fixtures cover it.
@@ -62,7 +64,7 @@ describe("Typescript Conformance @slow", () => {
     ]
 
     var substitutions: { [file: string]: { [expected: string]: string } } = {
-        // Typescripter doesn't support comments in type clauses
+        // tscripter doesn't support comments in type clauses
         "expressions/binaryOperators/logicalAndOperator/logicalAndOperatorWithTypeParameters.ts": {
             "functionfoo<T,U,V/*extendsT*/>(t:T,u:U,v:V){": "functionfoo<T,U,V>(t:T,u:U,v:V){"
         },
@@ -92,6 +94,32 @@ describe("Typescript Conformance @slow", () => {
         },
         "types/typeRelationships/subtypesAndSuperTypes/subtypingWithObjectMembersOptionality4.ts": {
             "tendsT{Foo2?:Derived//ok}": "tendsT{Foo2?:Derived;//ok}"
+        },
+        "es6/destructuring/destructuringParameterDeclaration1ES6.ts": {
+          "nctiona2(o:{x:number,a:number}){}functio": "nctiona2(o:{x:number;a:number}){}functio",
+          "q:[a,b,c]}:{j:number,k:string,l:{m:boole": "q:[a,b,c]}:{j:number;k:string;l:{m:boole",
+          "string;l:{m:boolean,n:number},q:(number": "string;l:{m:boolean;n:number};q:(number",
+          "ona4({x,a}:{x:number,a:number}){}a1([1,2": "ona4({x,a}:{x:number;a:number}){}a1([1,2",
+          "{z:number}?c1({z:1})//Impliedtypeis{z:nu": "{z:number}?c1({z:1});//Impliedtypeis{z:nu",
+        },
+        "es6/destructuring/destructuringVariableDeclaration1ES5.ts": {
+          "ar{a1,a2}:{a1:number,a2:string}={a1:10,a": "ar{a1,a2}:{a1:number;a2:string}={a1:10,a",
+          "[d1,d2]=[1,\"string\"]//ThetypeTassociated": "[d1,d2]=[1,\"string\"];//ThetypeTassociated",
+          "{f:[f1,f2,{f3:f4,f5},]}={f:[1,2,{f3:4,f5": "{f:[f1,f2,{f3:f4,f5}]}={f:[1,2,{f3:4,f5"
+        },
+        "es6/destructuring/destructuringVariableDeclaration1ES6.ts": {
+          "ar{a1,a2}:{a1:number,a2:string}={a1:10,a": "ar{a1,a2}:{a1:number;a2:string}={a1:10,a",
+          "[d1,d2]=[1,\"string\"]//ThetypeTassociated": "[d1,d2]=[1,\"string\"];//ThetypeTassociated",
+          "{f:[f1,f2,{f3:f4,f5},]}={f:[1,2,{f3:4,f5": "{f:[f1,f2,{f3:f4,f5}]}={f:[1,2,{f3:4,f5",
+        },
+        "expressions/arrayLiterals/arrayLiterals2ES5.ts": {
+          "[()=>1]vara5=[...a0,]//Eachelementexpres": "[()=>1]vara5=[...a0]//Eachelementexpres"
+        },
+        "expressions/arrayLiterals/arrayLiterals2ES6.ts": {
+          "[()=>1]vara5=[...a0,]//Eachelementexpres": "[()=>1]vara5=[...a0]//Eachelementexpres"
+        },
+        "expressions/contextualTyping/functionExpressionContextualTyping1.ts": {
+          "(j,k)=>{return[j,k]}//Perspec,nocontext": "(j,k)=>{return[j,k]};//Perspec,nocontext"
         }
     }
 

@@ -1523,7 +1523,7 @@ export class ArrayBinding extends CodeNode {
 export class BindingElement extends CodeNode {
   constructor(
     public binding: BindingPropertyName,
-    public propertyName?: Identifier,
+    public propertyName?: ElementDeclarationName,
     public isSpread = false,
     public initializer?: Expression) {
     super();
