@@ -1,4 +1,4 @@
-/// <reference path="node_modules/typescript/bin/typescript.d.ts" />
+/// <reference path="./typescript.d.ts" />
 
 declare module "tscripter" {
     export import analyzer = require("lib/analyzer");

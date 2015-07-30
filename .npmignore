@@ -6,5 +6,6 @@ notebook
 tsd.json
 !lib/*.d.ts
 !index.d.ts
+!typescript.d.ts
 !node_modules/**/*.ts
 tutorial.html
