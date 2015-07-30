@@ -1,6 +1,6 @@
 {
   "name": "tscripter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Typescript code generation tools.",
   "main": "index.js",
   "typescript": {
@@ -11,10 +11,6 @@
     "test-fast": "./node_modules/mocha/bin/mocha -i --grep \"@slow\"",
     "test-slow": "./node_modules/mocha/bin/mocha --grep \"@slow\"",
     "download-typescript-tests": "./test/download-typescript-tests.sh",
-    "format-tests": "find test -name \"*.test.ts\" | grep \"\\.ts\" | xargs ./node_modules/typescript-formatter/bin/tsfmt -r",
-    "format-lib": "find lib | grep \"\\.ts\" | xargs ./node_modules/typescript-formatter/bin/tsfmt -r",
-    "format-index": "./node_modules/typescript-formatter/bin/tsfmt -r index.ts",
-    "format": "npm run format-tests && npm run format-lib && npm run format-index",
     "build-tutorial": "ipython nbconvert --to html notebook/tutorial.ipynb",
     "build-declarations": "./node_modules/typescript/bin/tsc --target es5 --module commonjs typings/all.d.ts --declaration lib/statements.ts lib/analyzer.ts",
     "prepublish": "./node_modules/typescript/bin/tsc"
@@ -33,7 +29,6 @@
     "typescript": "~1.5.3"
   },
   "devDependencies": {
-    "typescript-formatter": "^0.3.2",
     "mocha": "^2.2.4"
   }
 }
